@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+header{
+    background-color: white;
+}
+.container-cabecalho{
+    display: flex; 
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px;
+}
+.imagem-logo{
+    width: 150px;
+    margin: 10px;
+}
+.nav-links-cabecalho li{
+    display: inline-block;
+    padding: 0 20px;
+}
+.nav-links-cabecalho a{
+    text-decoration: none;
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.icones-cabecalho{
+    padding: 10px;
+    color: #3A3A3A;
+    cursor: pointer;
+}
+.icones-cabecalho .fa-user{
+    margin-right: 10px;
+}
+.container-collection{
+    position: relative;
+}
+.imagem-produtos{
+    width: 100%;
+    height: 600px;
+}
+.rect-collection{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    position: absolute;
+    padding: 10px;
+    width: 400px;
+    height: 250px;
+    border-radius: 20px;
+    top: 180px;
+    left: 70px;
+    background-color: rgba(255,255,255,0.28);
+}
+.rect-collection h1{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 2em;
+}
+.rect-collection p{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: 600;
+}
+.rect-collection a{
+    color: #FFFFFF;
+    background-color: #3B856A;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    font-weight: bolder;
+    cursor: pointer;
+}
