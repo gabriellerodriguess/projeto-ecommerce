@@ -39,41 +39,49 @@ header{
 .container-collection{
     position: relative;
 }
-.imagem-produtos{
-    width: 100%;
+.background-image{
     height: 600px;
+    background-image: url(imagem-collection.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .rect-collection{
+    position: absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    position: absolute;
+    top: 80px;
+    left: 40px;
     padding: 10px;
-    width: 400px;
-    height: 250px;
+    width: 550px;
+    height: 440px;
     border-radius: 20px;
-    top: 180px;
-    left: 70px;
     background-color: rgba(255,255,255,0.28);
 }
 .rect-collection h1{
     color: #FFFFFF;
     text-decoration: none;
     text-align: center;
-    font-size: 2em;
+    font-size: 2.5em;
+    font-weight: bolder;
 }
 .rect-collection p{
     text-align: center;
     color: #FFFFFF;
+    font-size: 24px;
     font-weight: 600;
 }
 .rect-collection a{
+    width: 180px;
+    height: 60px;
+    font-size: 24px;
+    padding: 15px;
+    text-align: center;
     color: #FFFFFF;
     background-color: #3B856A;
     border-radius: 10px;
-    padding: 10px;
-    text-align: center;
     font-weight: bolder;
     cursor: pointer;
 }
