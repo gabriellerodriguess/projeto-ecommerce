@@ -89,20 +89,20 @@ header{
     font-weight: 600;
     padding: 1em;
 }
-.rect-collection a{
-    width: 180px;
-    height: 60px;
+.botao-padrao{
+    width: 182px;
+    height: 65px;
     font-size: 1.5em;
     padding: .75em;
-    text-align: center;
     color: #FFFFFF;
     background-color: #3B856A;
+    border: none;
     border-radius: 10px;
     font-weight: bolder;
     cursor: pointer;
     transition: 200ms;
 }
-.rect-collection a:hover{
+.botao-padrao:hover{
     background-color: #386857;
 }
 .container-lista-imagens{
@@ -163,4 +163,12 @@ header{
 }
 .container-pele, .container-make,.container-skincare{
     background: linear-gradient(rgba(58,58,58,0.42))
+}
+.titulo-best-seller{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.titulo-best-seller h2{
+    margin: 1.5em;
 }
