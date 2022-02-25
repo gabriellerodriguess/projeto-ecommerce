@@ -13,28 +13,43 @@ header{
     display: flex; 
     align-items: center;
     justify-content: space-between;
-    margin: 10px;
+    margin: 0.5em;
 }
 .imagem-logo{
     width: 150px;
-    margin: 10px;
+    margin: .75em;
 }
 .nav-links-cabecalho li{
     display: inline-block;
-    padding: 0 20px;
+    padding: 0 .75em;
 }
 .nav-links-cabecalho a{
+    position: relative;
     text-decoration: none;
+    text-transform: uppercase;
     color: #3A3A3A;
-    font-weight: 600;
+    font-weight: bold;
+}
+.nav-links-cabecalho a::after{
+    position: absolute;
+    content: "";
+    background-color: #3B856A;
+    height: 2px;
+    width: 0;
+    left: 0;
+    bottom: -4px;
+    transition: 20ms;
+}
+.nav-links-cabecalho a:hover::after{
+    width: 100%;
 }
 .icones-cabecalho{
-    padding: 10px;
+    padding: .75em;
     color: #3A3A3A;
     cursor: pointer;
 }
 .icones-cabecalho .fa-user{
-    margin-right: 10px;
+    margin-right: 0.75em;
 }
 .container-collection{
     position: relative;
@@ -54,7 +69,7 @@ header{
     justify-content: space-around;
     top: 80px;
     left: 40px;
-    padding: 10px;
+    padding: 0.75px;
     width: 550px;
     height: 440px;
     border-radius: 20px;
@@ -72,16 +87,80 @@ header{
     color: #FFFFFF;
     font-size: 24px;
     font-weight: 600;
+    padding: 1em;
 }
 .rect-collection a{
     width: 180px;
     height: 60px;
-    font-size: 24px;
-    padding: 15px;
+    font-size: 1.5em;
+    padding: .75em;
     text-align: center;
     color: #FFFFFF;
     background-color: #3B856A;
     border-radius: 10px;
     font-weight: bolder;
     cursor: pointer;
+    transition: 200ms;
+}
+.rect-collection a:hover{
+    background-color: #386857;
+}
+.container-lista-imagens{
+    display: flex;  
+    justify-content: space-around;
+}
+.container-pele, .container-make,.container-skincare{
+    width: 300px;
+    height: 300px;
+    display: flex;
+    border-radius: 10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
+}
+.container-lista-imagens span{
+    font-size: 2em;
+    color: #ffffff;
+    margin: 30px;
+    font-weight: bold;
+}
+.container-lista-imagens a{
+    text-decoration: none;
+    padding: 0.75em;
+    font-size: 1em;
+    color: #ffffff;
+    font-weight: bold;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    transition: 200ms;
+}
+.container-lista-imagens a:hover{
+    background-color: #FFFFFF;
+    color: #386857;
+}
+.container-pele{
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(pele.png);
+    background-size: cover;
+
+        backdrop-filter: blur(100px);
+    backdrop-filter: opacity(20%);
+
+}
+.container-make{
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(make.png);
+    background-size: cover;
+
+    backdrop-filter: blur(100px);
+
+    backdrop-filter: opacity(20%);
+}
+.container-skincare{
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(skincare.png);
+    background-size: cover;
+    backdrop-filter: blur(100px);
+    backdrop-filter: opacity(10%);
+}
+.container-pele, .container-make,.container-skincare{
+    background: linear-gradient(rgba(58,58,58,0.42))
 }
