@@ -205,3 +205,91 @@ header{
     margin-top: .75em;
     text-align: start;
 }
+.container-rodape-principal{
+    width: 100%;
+    height: 380px;
+    position: relative;
+    background-image: url("rodape.jpeg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.rodape-itens{
+    position: absolute;
+    display: flex;
+    top: 50%;
+    left: 60%;
+    align-items: center;
+}
+.input-email{
+    width: 300px;
+    padding:10px;
+
+}
+.input-email::-webkit-input-placeholder{
+    color: #3A3A3A;
+    font-weight: 600;
+}
+.botao-enviar{
+    background-color: #386857;
+    color: #fff;
+    padding: 10px;
+}
+
+.container-rodape-final{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 2.5em;
+}
+.rodape-final-dados{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.rodape-final-dados p{
+    color: #3A3A3A;
+    font-weight: 400;
+    padding: .75em;
+}
+.redes-sociais .fa-brands{
+    color: #000;
+    padding: 0 .75em;
+}
+.links-rodape{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.links-rodape h4{
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 2em;
+    color:#3A3A3A;
+}
+.links-rodape a{
+    text-decoration: none;
+    color:#3A3A3A;
+    margin-bottom: .5em;
+}
+.links-rodape a:hover{
+    text-decoration: underline;
+}
+.copyright-final{
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    border-top: 1px solid #3A3A3A;
+}
+.copyright-final h5{
+    margin: .75em .75em .75em 2em;
+    font-size: 1.5em;
+    color: #3A3A3A;
+}
+.copyright-final a{
+    margin: .75em .75em 0.75em 0;
+    color: #3A3A3A;
+}
