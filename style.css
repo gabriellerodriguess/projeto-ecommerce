@@ -168,7 +168,40 @@ header{
     margin: 0 auto;
     text-align: center;
 }
-
 .titulo-best-seller h2{
-    margin: 1.5em;
+    margin: .5em;
+    font-size: 2em;
+}
+.container-lista-best-seller{
+    width: 100%;
+    margin: 2em auto;
+}
+
+.lista-best-seller {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    justify-content: space-between;
+    list-style: none;
+    margin: 3%;
+}
+.item-best-seller{
+    width: 20%;
+    margin: 2%; 
+    text-align: center;
+}
+.item-best-seller img{
+    max-width: 50%;
+}
+.descricao-produtos{
+    color:rgba(58, 58, 58);
+    font-weight: bold;
+    text-align: start;
+    margin-top: .75em;
+}
+.preco-produtos{
+    font-weight: bold;
+    color: #386857;
+    margin-top: .75em;
+    text-align: start;
 }
