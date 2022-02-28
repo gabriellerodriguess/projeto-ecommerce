@@ -57,7 +57,7 @@ header{
 }
 .background-image{
     height: 600px;
-    background-image: url(imagem-collection.jpg);
+    background-image: url(assets/imagem-collection.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -150,7 +150,7 @@ header{
     color: #386857;
 }
 .container-pele{
-    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(pele.png);
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(assets/pele.png);
     background-size: cover;
 
     backdrop-filter: blur(100px);
@@ -158,7 +158,7 @@ header{
 
 }
 .container-make{
-    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(make.png);
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(assets/make.png);
     background-size: cover;
 
     backdrop-filter: blur(100px);
@@ -166,7 +166,7 @@ header{
     backdrop-filter: opacity(20%);
 }
 .container-skincare{
-    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(skincare.png);
+    background-image: linear-gradient(rgba(58, 58, 58,0.42), rgba(58, 58, 58,0.42)), url(assets/skincare.png);
     background-size: cover;
     backdrop-filter: blur(100px);
     backdrop-filter: opacity(10%);
@@ -219,7 +219,7 @@ header{
     width: 100%;
     height: 380px;
     position: relative;
-    background-image: url("rodape.jpeg");
+    background-image: url("assets/rodape.jpeg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
