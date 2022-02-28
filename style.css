@@ -101,6 +101,14 @@ header{
     cursor: pointer;
     transition: 200ms;
 }
+.hide-button{
+    background: #fff;
+    border: 2px solid #3B856A;
+    color: #3B856A;
+}
+.hide-button:hover{
+    color: #fff;
+}
 .botao-padrao:hover{
     background-color: #386857;
 }
@@ -136,6 +144,7 @@ header{
     justify-content: center;
     transition: 200ms;
 }
+
 .container-lista-imagens a:hover{
     background-color: #FFFFFF;
     color: #386857;
@@ -299,8 +308,12 @@ header{
     margin: .75em .75em 0.75em 0;
     color: #3A3A3A;
 }
-
-
+.show-container{
+    display: block !important;
+}
+.hide-container{
+    display: none;
+}
 @media screen and (min-width: 320px) and (max-width: 800px){
     header{
         width: auto;
